@@ -724,17 +724,17 @@ footer{
       <div class="reveal reveal-d3">
         <div class="form-field">
           <label class="form-label">Your Name</label>
-          <input type="text" class="form-input" placeholder="John Doe"/>
+          <input type="text" name="name" class="form-input" placeholder="John Doe"/>
         </div>
         <div class="form-field">
           <label class="form-label">Email Address</label>
-          <input type="email" class="form-input" placeholder="hello@email.com"/>
+          <input type="email" name="email" class="form-input" placeholder="hello@email.com"/>
         </div>
         <div class="form-field">
           <label class="form-label">Message</label>
-          <textarea class="form-textarea" placeholder="Tell me about your project..."></textarea>
+          <textarea name="message" class="form-textarea" placeholder="Tell me about your project..."></textarea>
         </div>
-        <button class="btn btn-solid form-submit" onclick="handleForm(this)">Send Message →</button>
+        <button type="submit" class="btn btn-solid form-submit">Send Message →</button>
       </div>
       </form>
     </div>
